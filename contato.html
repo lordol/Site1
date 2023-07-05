@@ -27,6 +27,34 @@
                 <input type="text"id="telefone" placeholder="Digite seu telefone." maxlength="20"> 
             </p>
         </fieldset>
+        <fieldset>
+            <legend> Endereço </legend>
+            <p>
+                <label for="rua">Rua:</label>
+                <input type="text" id="rua" placeholder="Digite o nome da rua." maxlength="300">
+            </p>
+            <p>
+                <label for="numero">Numero:</label>
+                <input number="text" id="numero" placeholder="Digite o numero da sua casa " maxlength="15">
+            </p>
+            <p>
+                <label for="estado">Estado:</label>
+                 <select id="estado">
+                    <optgroup label="região sudeste">
+                     <option value="RJ"> Rio de Janeiro</option>
+                     <option value="Sp">São paulo</option>
+                     <option value="MG">Minas Gerais</option>
+                     <option value="ES">Espirito santos</option>
+                    </optgroup>
+                    <optgroup label="região sul">
+                        <option value="PR">paraná</option>
+                        <option value="sc"> Santa catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+
+                    </optgroup>
+                 </select>
+            </p>
+        </fieldset>
     </form>
 </body>
 </html>
